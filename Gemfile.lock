@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    validates_identity-br_cpf (0.2.0)
+    validates_identity-br_cpf (0.3.0)
       activemodel
       validates_identity
 
@@ -107,7 +107,7 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.5.0)
     unicode_utils (1.4.0)
-    validates_identity (0.3.2)
+    validates_identity (0.4.0)
       activemodel
 
 PLATFORMS
