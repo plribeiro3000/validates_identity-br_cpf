@@ -14,11 +14,6 @@ RSpec.configure do |config|
   config.expect_with :rspec do |c|
     c.syntax = :expect
   end
-
-  config.before do
-    ValidatesIdentity.instance_variable_set(:@identity_types, nil)
-    ValidatesIdentity.instance_variable_set(:@identity_type_aliases, nil)
-  end
 end
 
 JazzFingers.configure do |config|
@@ -28,3 +23,4 @@ JazzFingers.configure do |config|
 end
 
 require File.expand_path('lib/validates_identity/br_cpf')
+require File.expand_path('spec/fake_app/user')
