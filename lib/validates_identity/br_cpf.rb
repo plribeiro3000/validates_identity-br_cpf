@@ -9,6 +9,6 @@ class ValidatesIdentity
   end
 end
 
-ValidatesIdentity.register_identity_type('BR_CPF', ValidatesIdentity::BrCpf::Validator)
-ValidatesIdentity::ShouldaMatchers.register_allowed_values('BR_CPF', %w[897.546.112-20 67242509009])
-ValidatesIdentity::ShouldaMatchers.register_disallowed_values('BR_CPF', %w[123456 897.546.112-30])
+ValidatesIdentity.register_person_identity_type('BR_CPF', ValidatesIdentity::BrCpf::Validator)
+ValidatesIdentity::ShouldaMatchers.register_person_allowed_values('BR_CPF', %w[897.546.112-20 67242509009])
+ValidatesIdentity::ShouldaMatchers.register_person_disallowed_values('BR_CPF', %w[123456 897.546.112-30])

@@ -1,3 +1,9 @@
+## [0.4.0] - 2024-02-27
+
+### Fixed
+
+- User new `validates_identity` public APIs
+
 ## [0.3.0] - 2024-02-25
 
 ### Added
